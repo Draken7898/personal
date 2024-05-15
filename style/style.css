@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-content {
+    
+    width: 1218px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    
+}
+
+.nav {
+    background-color: #000000;
+    padding: 25px 0;
+}
+
+.nav-logo {
+    color: red;
+    line-height: 48px;  /* отвечает за межстрочный интервал (высота строки) */
+    font-size: 40px; /* размер шрифта */
+    font-family: Arial; /* семейство шрифтов */
+    font-weight: 700; /* жирность шрифта */
+}
+
+.nav-link {
+    color: red;
+    line-height: 30px;
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: 400;
+    margin-right: 72px;
+}
+
+.header-background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1; /* растягивает элемент по ширине родителя */
+    justify-content: center;
+    position: relative;
+    padding-bottom: 56.25%;
+    }
+
+    .video-media{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .intro {
+        max-height: 100vh;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .intro::after {
+content: "";
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 2;
+border-color: rgba(0, 0, 0, .8);
+    }
+
+.main-content {
+    background-color: #07151f;
+    padding-top: 30px;
+    padding-bottom: 112px;
+}
+
+.main-title {
+    color: red;
+    line-height: 85px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Arial;
+    text-align: center; 
+}
+
+.works-items {
+    width: 1600px;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.works-item {
+    width: 312px;
+    padding: 15px 15px 27px 15px;
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+   padding-right: 20px;
+}
+
+.item-video {
+    width: 500px;
+}
+
+.footer {
+    background-color: #000000;
+    
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.footer-icon {
+    width:    100px;
+}
